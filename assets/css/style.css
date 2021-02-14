@@ -141,7 +141,7 @@ opacity: .9;
 }
 
 .btn_signup{
-    background-color: rgb(0,153,255);
+    background-color: rgb(255, 110, 48);
     border-radius: 50px;
     color: #ffffff !important;
     height: 35px;
@@ -173,7 +173,7 @@ opacity: .9;
         letter-spacing: -.014em;
 }
 .btn_signup_hero{
-    background-color: rgb(0,153,255);
+    background-color: rgb(255, 110, 48);
     color: #ffffff !important;
     display: flex;
     align-items: center;
