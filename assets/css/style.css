@@ -1,8 +1,8 @@
 * {
-    background-color: #0A0A0A;
+    background-color: #050505;
 }
 body {
-    background-color: #0A0A0A;
+    background-color: #050505;
 }
 
 .console {
@@ -10,7 +10,7 @@ body {
 }
 
 .console .btn_signup {
-  background-color: rgb(27,27,27);
+  background-color: rgb(15 15 15);
 }
 
 .le-format {
@@ -50,7 +50,7 @@ html,body{
 
 
 .main_body.home_page .hero_section{
-background-color: #0A0A0A;
+background-color: #050505;
 }
 .container{
     max-width: 1200px;
@@ -65,7 +65,7 @@ p{
 
 /*top dark css starts*/
 .nav_wrapper {
-    background-color: #0A0A0A;
+    background-color: #050505;
     height: 60px;
 
 }
@@ -101,7 +101,7 @@ p{
     color: #ffffff;
 }
 .nav_wrapper .navbar .btn_search{
-    background-color: rgb(27,27,27);
+    background-color: rgb(15 15 15);
     border-radius: 50px;
     width: 35px;
     height: 35px;
@@ -117,7 +117,7 @@ p{
 opacity: .9;
 }
 .nav_wrapper .navbar .btn_signin{
-    background-color: rgb(27,27,27);
+    background-color: rgb(15 15 15);
     border-radius: 50px;
     color: rgb(202,202,202) !important;
     height: 35px;
@@ -188,7 +188,7 @@ opacity: .9;
     font-family: 'GTWalsheimPro-Bold.ttf';
 }
 .btn_sigin_hero{
-    background-color: rgb(27,27,27);
+    background-color: rgb(15 15 15);
     color: rgb(202,202,202) !important;
     display: flex;
     align-items: center;
