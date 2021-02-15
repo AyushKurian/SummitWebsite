@@ -407,3 +407,23 @@ strong {
 .fcf-attribution-link {
     color: #363636;
 }
+
+ .faq_question {
+            margin: 0px;
+            padding: 0px 0px 5px 0px;
+            display: inline-block;
+            cursor: pointer;
+            font-weight: bold;
+	  		font-size: 25px;
+    		line-height: 25px;
+    		font-weight: 500;
+    		color: rgb(132,132,132);
+			font-family: 'GTWalsheimPro-Regular.ttf';
+        }
+        
+        .faq_answer_container {
+            display: none;
+			font-size: 25px;
+  			color: rgb(132,132,132);
+			font-family: 'GTWalsheimPro-Regular.ttf';
+        }
