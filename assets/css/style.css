@@ -10,7 +10,7 @@ body {
 }
 
 .console .btn_signup {
-  background-color: rgb(15 15 15);
+  background-color: rgb(255, 110, 48);
 }
 
 .le-format {
@@ -141,7 +141,7 @@ opacity: .9;
 }
 
 .btn_signup{
-    background-color: rgb(255, 110, 48);
+    background-color: #0f0f0f;
     border-radius: 50px;
     color: #ffffff !important;
     height: 35px;
