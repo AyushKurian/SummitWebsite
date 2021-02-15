@@ -10,7 +10,7 @@ body {
 }
 
 .console .btn_signup {
-  background-color: rgb(15 15 15);
+  background-color: rgb(255, 110, 48);
 }
 
 .le-format {
@@ -141,7 +141,7 @@ opacity: .9;
 }
 
 .btn_signup{
-    background-color: rgb(255, 110, 48);
+    background-color: #0f0f0f;
     border-radius: 50px;
     color: #ffffff !important;
     height: 35px;
@@ -217,7 +217,7 @@ opacity: .9;
     }
 
     /*// Medium devices (tablets, less than 992px)*/
-    @media (max-width: 991.98px) {
+    @media (max-width : 1010px ){
 
 .main_body.home_page .hero_content h4 {
     font-size: 72px;
@@ -312,4 +312,98 @@ opacity: .9;
 }
 .le-format .btn {
     color:rgb(132,132,132);
+}
+.fcf-form-wrap {
+    max-width: 100%;
+    padding: 30px;
+    border-radius: 4px;
+    background-color: #050505;
+	float: center;
+}
+
+#fcf-form {
+    background-color: #ffffff;
+    color: #a3b3b3;
+	text-align: left;
+	width: 100%;
+}
+
+#fcf-thank-you {
+    color: #a3b3b3;
+}
+
+.label {
+    color: #a3b3b3;
+}
+
+strong {
+    color: #a3b3b3;
+}
+
+.input, .textarea, .select select {
+    background-color: #ffffff;
+    border-color: #dbdbdb;
+    color: #363636;
+	width: 100%;
+}
+
+.input:focus, .textarea:focus, .select select:focus, .input:active, .textarea:active, .select select:active, .input:hover, .textarea:hover, .select select:hover {
+    border-color: #dbdbdb;
+    box-shadow: none;
+}
+
+.file-label:hover .file-cta {
+    background-color: #808080;
+    color: #ffffff;
+}
+
+.file-label:hover .file-name {
+    border-color: #dbdbdb;
+}
+
+.file-label:active .file-cta {
+    background-color: #808080;
+    color: #ffffff;
+}
+
+.file-label:active .file-name {
+    border-color: #cfcfcf;
+}
+
+.file-cta {
+    background-color: #363636;
+    border-color: #dbdbdb;
+    color: #ffffff;
+}
+
+.file-name {
+    background-color: #ffffff;
+    border-color: #dbdbdb;
+	width: inherit;
+}
+
+.button.is-link {
+    background-color: #363636;
+    color: #ffffff;
+	align-content: center;
+}
+
+.button.is-link:hover {
+    background-color: #808080;
+    color: #ffffff;
+}
+
+.button.is-link[disabled] {
+    background-color: #808080;
+    border-color: transparent;
+    box-shadow: none;
+}
+
+.fcf-attribution {
+    color: #363636;
+    text-align: right;
+}
+
+.fcf-attribution-link {
+    color: #363636;
 }
