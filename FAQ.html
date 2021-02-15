@@ -111,16 +111,60 @@
 			<div class="hero_content">
 				<div class="container">
 					<div class="row">
-						<div class="col-12 text-center">
-							<div class="h_formatting">
-								<h4>The Discord Bot for<br>Ministries and Churches.</h4>
-								<h6>Moderation to Music for your Discord Ministry could never be this easy.</h6>
+					  <div class="col-12 text-center">
+							
+								<h6>Below you will see some of our most commonly asked questions about what Summitbot is.</h6>
 							</div>
+					<div class="faq_container">
+        <div class="faq">
+            <div class="faq_question open">What is Sumnmoit Bot?</div>
+            <div class="faq_answer_container">
+                <div class="faq_answer">Only the best bot ever</div>
+            </div>
+        </div>
+		<br>
+        <div class="faq">
+            <div class="faq_question">Is Allen the best?</div>
+            <div class="faq_answer_container">
+                <div class="faq_answer">obviously</div>
+            </div>
+        </div>
+		<br>
+        <div class="faq">
+            <div class="faq_question"> Is Justin the best?</div>
+            <div class="faq_answer_container">
+                <div class="faq_answer">obviously</div>
+            </div>
+        </div>
+		<br>				
+		<div class="faq">
+            <div class="faq_question open">What is Sumnmoit Bot?</div>
+            <div class="faq_answer_container">
+                <div class="faq_answer">Only the best bot ever</div>
+            </div>
+        </div>
+		<br>
+		<div class="faq">
+            <div class="faq_question open">What is Sumnmoit Bot?</div>
+            <div class="faq_answer_container">
+                <div class="faq_answer">Only the best bot ever</div>
+            </div>
+        </div>
+		<br>
+		<div class="faq">
+            <div class="faq_question open">What is Sumnmoit Bot?</div>
+            <div class="faq_answer_container">
+                <div class="faq_answer">Only the best bot ever</div>
+            </div>
+        </div>
+		<br>
+    </div>
+						
 						</div>
 						<div class="col-12 text-center">
 							<div class="d-flex justify-content-center">
 								<a href="#" class="btn btn_signup_hero">Invite the Bot</a>
-								<a href="#" class="btn btn_sigin_hero">Support</a>
+								<a href=" https://discord.com/invite/rtaXBpCC" class="btn btn_sigin_hero">Support</a>
 							</div>
 						</div>
 						<div class="le-format">
@@ -156,7 +200,25 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	 <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
 
+            $('.faq_question').click(function() {
+
+                if ($(this).parent().is('.open')) {
+                    $(this).closest('.faq').find('.faq_answer_container').slideUp();
+                    $(this).closest('.faq').removeClass('open');
+                } else {
+                    $('.faq_answer_container').slideUp();
+                    $('.faq').removeClass('open');
+                    $(this).closest('.faq').find('.faq_answer_container').slideDown();
+                    $(this).closest('.faq').addClass('open');
+                }
+
+            });
+        });
+    </script>
 
 
 
