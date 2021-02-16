@@ -1,5 +1,5 @@
 * {
-    background-color: #050505;
+    background-color: #ffffff;
 }
 body {
     background-color: #050505;
@@ -10,7 +10,7 @@ body {
 }
 
 .console .btn_signup {
-  background-color: rgb(255, 110, 48);
+  background-color: #ff3300;
 }
 
 .le-format {
@@ -96,7 +96,7 @@ p1{
     color: rgb(132,132,132);
 }
 .nav_wrapper .navbar .navbar-brand:hover{
- color: #ffffff;
+ color:;
 }
 .nav_wrapper .navbar .navbar-brand img{
     width: 35px;
@@ -104,11 +104,9 @@ p1{
 }
 
 
-.nav_wrapper .navbar  .nav-item .nav-link:hover{
-    color: #ffffff;
 }
 .nav_wrapper .navbar .btn_search{
-    background-color: rgb(15 15 15);
+    background-color: #a3b3b3;
     border-radius: 50px;
     width: 35px;
     height: 35px;
@@ -124,7 +122,7 @@ p1{
 opacity: .9;
 }
 .nav_wrapper .navbar .btn_signin{
-    background-color: rgb(15 15 15);
+    background-color: #a3b3b3;
     border-radius: 50px;
     color: rgb(202,202,202) !important;
     height: 35px;
@@ -148,7 +146,7 @@ opacity: .9;
 }
 
 .btn_signup{
-    background-color: #0f0f0f;
+    background-color: #ff3300;
     border-radius: 50px;
     color: #ffffff !important;
     height: 35px;
@@ -171,16 +169,17 @@ opacity: .9;
     font-weight: 700;
     margin-bottom: 1rem;
         letter-spacing: -.046em;
+	color: #ff3300;
 }
 .main_body.home_page .hero_content h6{
     font-size: 28px;
     line-height: 42px;
-    color:#b3b3b3;
+    color:#050505;
     margin-bottom: 2rem;
         letter-spacing: -.014em;
 }
 .btn_signup_hero{
-    background-color: rgb(255, 110, 48);
+    background-color:#ff3300;
     color: #ffffff !important;
     display: flex;
     align-items: center;
@@ -195,8 +194,8 @@ opacity: .9;
     font-family: 'GTWalsheimPro-Bold.ttf';
 }
 .btn_sigin_hero{
-    background-color: rgb(15 15 15);
-    color: rgb(202,202,202) !important;
+    background-color:#ff3300;
+    color: #ffffff !important;
     display: flex;
     align-items: center;
     margin-left: 1rem;
@@ -229,6 +228,7 @@ opacity: .9;
 .main_body.home_page .hero_content h4 {
     font-size: 72px;
     line-height: 78px;
+	color: #000000;
 }
 .main_body.home_page .hero_content h6 {
     font-size: 25px;
@@ -308,7 +308,7 @@ opacity: .9;
 .btn_login{
     background-color: rgb(255, 255, 255);
     border-radius: 50px;
-    color: rgb(202,202,202) !important;
+    color: #a3b3b3 !important;
     height: 35px;
     display: flex;
     align-items: center;
@@ -318,7 +318,7 @@ opacity: .9;
     font-family: 'GTWalsheimPro-Bold.ttf';
 }
 .le-format .btn {
-    color:rgb(132,132,132);
+    color:#ff3300;
 }
 .fcf-form-wrap {
     max-width: 100%;
@@ -424,7 +424,7 @@ strong {
 	  		font-size: 25px;
     		line-height: 25px;
     		font-weight: 500;
-    		color: rgb(132,132,132);
+    		color: #050505;
 			font-family: 'GTWalsheimPro-Regular.ttf';
         }
         
@@ -438,7 +438,7 @@ strong {
     padding: 25px 0px;
     display: flex;
     flex-direction: column;
-    border-bottom: 0.5px solid rgba(255, 255, 255, 0.13);
+    border-bottom: 0.5px solid #050505;
 }
 
 .epOLLA {
@@ -447,14 +447,14 @@ strong {
     border-radius: 3px;
     margin-inline-end: 10px;
     margin-bottom: 10px;
-    color: rgb(158, 158, 158);
+    color:#a3b3b3;
     user-select: none;
     white-space: nowrap;
 }
 
 .hvynVe {
     font-size: 22px;
-    color: white;
+    color: #050505;
     line-height: 1.25;
     font-weight: 800;
     font-family: "Helvetica Neue", Helvetica, sans-serif;
@@ -476,4 +476,6 @@ strong {
     min-height: 100%;
     display: flex;
     flex-direction: column;
+}
+.p1 {
 }
